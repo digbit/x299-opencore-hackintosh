@@ -10,6 +10,16 @@
 
 - m.2                 Samsung 970 evo / 970 pro / HS-SSD-C2000Pro
 
+# How to use
+
+- update config.plist
+
+using "OpenCore Configurator" generate SystemSerialNumber / SystemUUID
+
+- update X299-Map.kext
+
+remapping your usb ports if necessary
+
 # x540-at2 driver
 
 Vendor ID: 0x8086
