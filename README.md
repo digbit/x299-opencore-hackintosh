@@ -1,6 +1,6 @@
-# x299-opencore-hackintosh
+# Hardware
 
-- CPU                 i9-9960X
+- CPU                 i9-9980XE
 
 - Memory              8x16G  G.Skill
 
@@ -16,16 +16,45 @@
 
 using "OpenCore Configurator" generate SystemSerialNumber / SystemUUID
 
-- update X299-Map.kext
+- update X299SATA.kext
 
 remapping your usb ports if necessary
 
-# x540-at2 driver
+# Compatible with Monterey, Ventura and Sonoma
 
-Vendor ID: 0x8086
+not work properly:
 
-Device ID: 0x1528
+- Sleep/Wake
 
-SmallTreeIntel8259x-3.8.6.dmg_.zip
+# Bios setting
+
+* AI Tweaker
+    * AI Overclock Tuner - XMP
+    * CPU SVID Support - Enabled
+* Advanced
+    * CPU Configuration
+        * MSR Lock Control - Disabled
+    * CPU Power Management Configuration
+        * Enhanced Intel SpeedStep Technology - Enabled
+        * Turbo Mode - Enabled
+        * Autonomous Core C-State - Enabled
+        * Enhanced Halt State (C1E) - Enabled
+        * CPU C6 Report - Enabled
+        * Package C State - C6(non Retention) state
+        * Intel(R) Speed Shift Technology - Enabled
+        * MFC Mode Override - OS Native Support
+    * System Agent (SA) Configuration
+        * Intel VT for Directed I/O (VT-d) - Enabled
+    * PCI Subsystem Settings
+        * Above 4G Decoding - Enabled
+        * Re-Size BAR Support - Auto
+    * PCH Storage Configuration
+        * SATA Mode Selection - AHCI
+* Boot
+    * CSM (Compatability Support Module)
+        * Launch CSM - Disabled
+* Secure Boot
+    * OS Type / Other OS
+
 
 
