@@ -24,8 +24,7 @@ remapping your usb ports if necessary
 
 The BIOS version is 3801.
 
-Things does not work properly:
-
+Things are not working properly:
 - Sleep/Wake
 
 # Bios setting
