@@ -22,7 +22,9 @@ remapping your usb ports if necessary
 
 # Compatible with Monterey, Ventura and Sonoma
 
-not work properly:
+The BIOS version is 3801.
+
+Things does not work properly:
 
 - Sleep/Wake
 
